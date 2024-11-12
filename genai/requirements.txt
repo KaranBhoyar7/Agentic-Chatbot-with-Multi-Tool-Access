@@ -4,4 +4,8 @@ psutil
 langchain
 langchain_huggingface
 langchain_ollama
+langchain-community
+Wikipedia
+python-multipart
 uvicorn
+faiss-cpu
