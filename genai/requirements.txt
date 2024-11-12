@@ -1,0 +1,7 @@
+fastapi
+PyPDF2
+psutil
+langchain
+langchain_huggingface
+langchain_ollama
+uvicorn
