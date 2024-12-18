@@ -1,8 +1,34 @@
 # GenAI
+# Agentic Chatbot with Multi-Tool Access
 
-This repository contains the backend API service for GenAI. Follow the steps below to set up and run the service.
+This project is a Streamlit-based chatbot application that combines various tools like FAISS, ChatOllama, Wikipedia search, and web search to provide an intelligent query answering system.
 
-## Getting Started
+## Features
+- **Resume Training**: Upload a PDF resume to train a FAISS index.
+- **Inference Tools**:
+  - Query a ChatOllama-powered knowledge base.
+  - Search Wikipedia for quick summaries.
+  - Perform web searches to retrieve top results.
+- **Streamlit UI**: An interactive interface to upload files and query tools.
+
+## Requirements
+- Python 3.8+
+- Required Libraries:
+  - `streamlit`
+  - `requests`
+  - `wikipedia`
+  - `googlesearch-python`
+  - `beautifulsoup4`
+  - `langchain`
+  - `fitz` (PyMuPDF)
+  - `HuggingFaceEmbeddings`
+  - `FAISS`
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone <repository-URL>
+   cd <project-directory>
 
 ### Prerequisites
 Make sure you have [Python](https://www.python.org/downloads/) and [pip](https://pip.pypa.io/en/stable/installation/) installed on your system.
@@ -12,13 +38,11 @@ Make sure you have [Python](https://www.python.org/downloads/) and [pip](https:/
 1. **Install dependencies**
    ```bash
    pip install -r requirements.txt
-2. **Start the server**
+2. **Run the Streamlit app:**
 
-   Start the API server by running:
    ```bash
-      uvicorn main:app --reload
+      streamlit run main.py
    ```
-3. Access API Documentation
-Open http://127.0.0.1:8000/docs in your browser. This link directs you to the auto-generated API documentation where you can view and test the available endpoints.
+
 
  
