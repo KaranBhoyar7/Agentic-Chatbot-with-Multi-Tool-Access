@@ -1,3 +1,9 @@
+streamlit
+requests
+beautifulsoup4
+wikipedia-api
+pdfplumber
+PyPDF2
 fastapi
 PyPDF2
 psutil
